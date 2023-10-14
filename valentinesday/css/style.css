@@ -1,0 +1,235 @@
+body {
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #d74b7a;
+}
+
+header {
+  text-align: center;
+  background-image: url("../images/background_header.png");
+}
+
+nav {
+  background-color: #d74b7a; /* #F78CC2 */
+  height: 49px;
+  margin-top: -20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+nav ul li
+{
+  display: inline;
+  float: left;
+  background-color: #d74b7a;
+}
+
+nav li a {
+  display: block;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: georgia;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+nav ul li.active {
+  background-color: #AF0032;
+}
+
+main {
+  background-color: #AF0032; /* #F62525 */
+  height: auto;
+  font-size: 17px;
+}
+
+section.about {
+  background-color: #ffb3d1; /* #E53D6D */
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -20px;
+  height: auto;
+  padding: 0px 10px 10px 10px;
+}
+
+section.cards {
+  background-color: #ffb3d1; /* #E53D6D */
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -20px;
+  height: auto;
+  padding: 0px 10px 10px 10px;
+}
+
+.cards a{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+section.recipes {
+  background-color: #ffb3d1; /* #E53D6D */
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -20px;
+  height: auto;
+  padding: 0px 10px 10px 10px;
+}
+
+section.gifts {
+  background-color: #ffb3d1; /* #E53D6D */
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -20px;
+  height: auto;
+  padding: 0px 10px 10px 10px;
+}
+
+section.dates {
+  background-color: #ffb3d1; /* #E53D6D */
+  margin-left: 20px;
+  margin-right: 20px;
+  height: auto;
+  padding: 0px 10px 10px 10px;
+}
+
+section.above_dates {
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -20px;
+  height: auto;
+  padding: 0px 10px 0px 10px;
+}
+
+section.singles {
+  background-color: #ffb3d1; /* #E53D6D */
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -20px;
+  height: auto;
+  padding: 0px 10px 10px 10px;
+}
+
+section.thanks {
+  background-color: #ffb3d1; /* #E53D6D */
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -20px;
+  height: auto;
+  padding: 0px 10px 10px 10px;
+}
+
+.recipes article {
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0px 5px 2px 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 550px;
+  height: auto;
+}
+
+.recipes aside {
+  background-color: white;
+  float:right;
+  padding: 5px 5px 5px 50px;
+}
+
+.gifts article {
+  background-color: white;
+  margin: 20px;
+  padding: 0px 10px 0px 10px;
+  width: 550px;
+  height: auto;
+}
+
+.gifts article aside {
+  float:right;
+  padding: 0px -30px 15px 20px;
+  margin-top: -20px;
+}
+
+.gifts article h4 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.dates article {
+  float: left;
+  background-color: white;
+  margin: 20px;
+  padding: 0px 10px 0px 10px;
+  height: auto;
+  width: 550px;
+}
+
+.above_dates p {
+  padding: 5px, 10px, 0px, 10px;
+}
+
+.dates aside {
+  text-align: center;
+  padding: 0px 190px 0px 190px;
+}
+
+.dates article h4 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+aside {
+  float: left;
+  margin-left: 10px;
+}
+
+article {
+  margin-left: 20px;
+}
+
+.singles article {
+  float: left;
+  background-color: white;
+  margin: 20px;
+  padding: 0px 10px 0px 10px;
+  width: 550px;
+  height: auto;
+}
+
+.singles article h4 {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 0px;
+}
+
+.singles article p {
+  text-align: center;
+  text-decoration: bold;
+}
+
+footer {
+  background-color: #d74b7a;
+  height: 100px;
+  margin-top: -20px;
+}
+
+section.footer {
+  height: 20px;
+  background-color: #AF0032;
+}
+
+footer p {
+  margin-left: 20px;
+  margin-top: 10px;
+}
